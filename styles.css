@@ -1,4 +1,28 @@
 * {
-  font-family: "Roboto", sans-serif;
   font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.img {
+  display: flex;
+  height: 96%;
+  width: 40%;
+  margin: 1%;
+  background: url(../signup-form/images/tumblr_72a191ee0362f60dfd2c86e61b13685a_86d543b9_2048.jpg);
+  justify-content: center;
+  align-items: end;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-description {
+  background-color: grey;
 }
