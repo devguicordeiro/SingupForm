@@ -1,5 +1,6 @@
 * {
   font-family: "Ubuntu", sans-serif;
+  font-size: 56px;
 }
 
 body {
@@ -14,15 +15,32 @@ body {
 .img {
   display: flex;
   height: 96%;
-  width: 40%;
-  margin: 1%;
+  width: 25%;
+  margin: 1% 1% 1% 7%;
   background: url(../signup-form/images/tumblr_72a191ee0362f60dfd2c86e61b13685a_86d543b9_2048.jpg);
-  justify-content: center;
-  align-items: end;
-  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .img-description {
-  background-color: grey;
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-size: 100%;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(2, 2, 2, 0.356);
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+a {
+  color: inherit;
 }
