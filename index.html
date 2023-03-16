@@ -7,12 +7,9 @@
     <title>PKM Sign-UP</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
   </head>
   <body>
@@ -52,8 +49,25 @@
             />
             <label for="first-name" class="form-label">First Name</label>
           </div>
-          <div class="last-name"></div>
-          <div class="email"></div>
+          <div class="last-name">
+              <input
+                type="text"
+                name="lastName"
+                id="last-name"
+                class="form-input"
+                placeholder="Last Name"
+              />
+              <label for="last-name" class="form-label">Last Name</label>
+          <div class="email">
+            <input
+                type="email"
+                name="emailInput"
+                id="email"
+                class="form-input"
+                placeholder="Email"
+              />
+              <label for="email" class="form-label">Email</label>
+          </div>
           <div class="phone-number"></div>
           <div class="password"></div>
           <div class="repeat"></div>
